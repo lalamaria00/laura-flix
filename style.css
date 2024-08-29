@@ -1,0 +1,55 @@
+body{
+    color: black;
+background:white;
+margin: 0px;
+font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px  black;
+   padding: 20px;
+   font-size: 32px;
+}
+
+section {
+    background: rgb(254, 167, 255);
+    padding-bottom:80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%
+}
+    
+h1{
+    font-size: 40px
+    ;
+}
+
+p {
+    font-size: 40px ;
+}
+
+img {
+    max-width: 200px;
+    opacity: 50%;
+    transition: .3s;
+}
+
+img:hover {
+    opacity: 100%;
+    transform: scale(1.25);
+    transition: .3s;
+}
+
+.filmes-series {
+    background-color: #333;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
